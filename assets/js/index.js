@@ -4,7 +4,7 @@ function getUserInfo () {
         url: '/my/userinfo',
         data: null,
         success: res => {
-            console.log(res);
+            // console.log(res);
             renderAvatar(res.data)
         }
     })
